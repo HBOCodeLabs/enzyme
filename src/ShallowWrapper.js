@@ -1000,7 +1000,7 @@ class ShallowWrapper {
    * @returns {String}
    */
   debug() {
-    return debugNodes(this.getNodes());
+    return "lol: \n" + debugNodes(this.getNodes());
   }
 
   /**
